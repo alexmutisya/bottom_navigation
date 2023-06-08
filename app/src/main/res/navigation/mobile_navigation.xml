@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_allcars">
+    <fragment
+        android:id="@+id/nav_allcars"
+        android:name="com.sealteam.bottomnavigation.allcars"
+        android:label="allcars"
+        tools:layout="@layout/fragment_allcars" />
+    <fragment
+        android:id="@+id/nav_brandnewcars"
+        android:name="com.sealteam.bottomnavigation.brandnewcars"
+        android:label="brandnewcars"
+        tools:layout="@layout/fragment_brandnewcars" />
+    <fragment
+        android:id="@+id/nav_subaru"
+        android:name="com.sealteam.bottomnavigation.subaru"
+        android:label="subaru"
+        tools:layout="@layout/fragment_subaru" />
+    <fragment
+        android:id="@+id/nav_toyota"
+        android:name="com.sealteam.bottomnavigation.toyota"
+        android:label="toyota"
+        tools:layout="@layout/fragment_toyota" />
+</navigation>

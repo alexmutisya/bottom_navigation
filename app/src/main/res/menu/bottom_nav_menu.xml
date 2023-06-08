@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_allcars"
+        android:icon="@drawable/baseline_electric_car_24"
+        android:title="allcars" />
+
+    <item
+        android:id="@+id/nav_brandnewcars"
+        android:icon="@drawable/baseline_new_releases_24"
+        android:title="brandnewcars" />
+
+    <item
+        android:id="@+id/nav_subaru"
+        android:icon="@drawable/baseline_speed_24"
+        android:title="subaru" />
+    <item
+        android:id="@+id/nav_toyota"
+        android:icon="@drawable/baseline_shutter_speed_24"
+        android:title="toyota" />
+</menu>
